@@ -112,7 +112,7 @@ p {
 }
 
 .content p{
-    font-size: 18px;
+    font-size: 14px;
     font-family:  var(--default-font-family);
 }
 
@@ -124,4 +124,5 @@ p {
 .content h3{
   font-size:24 px;
   font-family:var(--default-font-family);
+  line-height:1.5;
 }
