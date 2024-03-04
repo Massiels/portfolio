@@ -113,8 +113,14 @@ nav{
    display: inline;
    list-style:none;
    line- heigth:42px;
+   margin-left:15px;
  }
- 
+
+nav a{
+  text-decoration:none;
+  color:#272142;
+}
+
  
  @media (max-width: 900px) 
     h1 {
