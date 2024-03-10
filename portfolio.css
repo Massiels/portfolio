@@ -127,7 +127,7 @@ nav li.active a{
 }
 
 nav a:hover{
-  
+  color: var(--branding-color)
 }
  
  @media (max-width: 900px) 
