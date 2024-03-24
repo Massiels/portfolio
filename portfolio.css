@@ -153,6 +153,15 @@ padding: 10px 14px;
 border-radius: 50px;
 font-size: 18px;  
 }
+
+
+footer.social-links a:hover{
+  
+  
+}
+
+
+
  @media (max-width: 900px) 
     h1 {
       font-size: 44px;
