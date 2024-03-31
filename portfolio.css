@@ -152,12 +152,13 @@ background: var(--secondary-color);
 padding: 10px 14px;
 border-radius: 50px;
 font-size: 18px;  
+transition: all 100ms ease-in-out;
 }
 
 
 footer.social-links a:hover{
-  
-  
+color: white;
+background: var(--branding-color);
 }
 
 
@@ -165,7 +166,7 @@ footer.social-links a:hover{
  @media (max-width: 900px) 
     h1 {
       font-size: 44px;
-      line-height:56px;
+      line-height:1.5;
     }
 
 .content h1 {
