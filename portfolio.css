@@ -134,6 +134,15 @@ footer{
   margin:60px 0;
 }
 
+
+footer.contact-box{
+background: var(--secondary-color);
+padding:30px;
+border-radius: 10px;
+}
+
+
+
 footer.email-link{
   text-decoration:none;
   colo:black;
@@ -154,6 +163,7 @@ border-radius: 50px;
 font-size: 18px;  
 transition: all 100ms ease-in-out;
 }
+
 
 
 footer.social-links a:hover{
