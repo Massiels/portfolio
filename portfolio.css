@@ -1,47 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
 
 :root {
-  --primary-colour: #d7acd4;
-  --secondary-colour: #d7acd466;
-  --box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display",serif;
+  --default-font-family:"Poppins",sans-serif;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #f9f7fe;
+  font-family:var(--default-font-family);
 }
 
-h1 {
-  font-size: 53px;
-  font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+ color:black;
+  font-family: var(--heading-font-family);
+  font-weigth:bold;
 }
 
+h1{
+  font-size:96px;
+  line-height:1.5;  
+}
 h2 {
-  font-size: 38px;
+  font-size: 64px;
 }
 
 h3 {
-  font-size: 19px;
-  opacity: 0.7;
+  font-size: 48px;
 }
 
-.btn {
-  background-color: var(--primary-colour);
-  font-weight: 500;
-  padding: 10px 40px;
-  box-shadow: var(--box-shadow);
-}
-
-.secondary-border-top {
-  border-top: 2px solid var(--secondary-colour);
-}
-
-.secondary-border-bottom {
-  border-bottom: 2px solid var(--secondary-colour);
+p{
+  font-weight: normal;
+ font-size: 16px;
+  line-height:30px;
+  
 }
 
 .hero {
-  margin-top: 55px;
+ background: var(--secondary-color);
+  text-align:center;
+  padding:80px 20px;
 }
 
 .massiel-img {
