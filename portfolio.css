@@ -8,8 +8,18 @@
 }
 
 body {
-  font-family: var(--default-font-familg-font-family);
-  font-weight: bold;
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+color:black;
+font-family: var(--heading-font-family);
+font-weight:bold;
 }
 
 h1 {
@@ -108,7 +118,7 @@ p {
   color: white;
 }
 
-.project-desciption {
+.project-description {
   padding: 120px 60px;
 }
 
