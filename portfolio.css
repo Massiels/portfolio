@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: var(--default-font-family);
+  font-family: var(--default-font-family);
+
 }
 
 h1,
@@ -116,6 +117,11 @@ p {
 .btn-branding-outline:hover {
   background: var(--branding-color);
   color: white;
+}
+
+img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 .project-description {
